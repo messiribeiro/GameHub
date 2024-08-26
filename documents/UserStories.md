@@ -34,7 +34,7 @@
 
 - Deve haver diferentes tipos de comunidades, como grupos de interesse e chats.
 - Os usuários devem ser capazes de criar e gerenciar seus próprios grupos.
-- Deve haver um sistema de moderação para garantir um ambiente seguro e respeitoso.
+
 
 ### Exemplos de Uso
 
