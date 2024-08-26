@@ -18,7 +18,7 @@
 
 ## Relacionamento com Clientes
 
-- **Comunidade**: Fóruns, chats e grupos para fomentar a interação entre usuários.
+- **Comunidade**: Chats e grupos para fomentar a interação entre usuários.
 - **Suporte ao Usuário**: Sistema de atendimento para resolver dúvidas e problemas.
 
 ## Fontes de Receita
