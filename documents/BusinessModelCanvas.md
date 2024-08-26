@@ -51,4 +51,4 @@
 - **Marketing e Publicidade**: Para atrair e manter usuários.
 - **Servidores e Tecnologia**: Custos para hospedar e escalar a plataforma.
 
-![Business Model Canvas](documents/businessmodelcanvas.png)
+![Business Model Canvas](businessmodelcanvas.png)
