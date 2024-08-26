@@ -29,6 +29,10 @@ A documentação está organizada da seguinte forma:
 - **Git**: Para controle de versão e colaboração no projeto.
 - **GitHub**: Para hospedagem do repositório e gerenciamento de código-fonte.
 
+## Protótipo
+
+- **Protótipo no Figma**: [Visualize o protótipo aqui](https://www.figma.com/design/JMX93rHYYCgiL3PfaJfunb/Untitled?node-id=0-1&t=rD1r0RCGOcitvHaC-1).
+
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
