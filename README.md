@@ -6,13 +6,16 @@ Bem-vindo ao projeto de **Rede Social para Gamers**! Este projeto visa criar uma
 
 O objetivo principal deste projeto é desenvolver um aplicativo móvel que permita aos gamers encontrar parceiros para jogar com base em interesses e estilos de jogo. Além disso, o aplicativo criará uma comunidade onde os usuários podem interagir, formar grupos e compartilhar suas experiências de jogo.
 
+Através de pesquisas, percebemos que não existe uma rede social conhecida que ofereça essas funcionalidades específicas. Atualmente, muitos gamers optam por utilizar outras plataformas, como Discord ou Twitch, para encontrar parceiros de jogo e interagir com a comunidade. Nosso objetivo é preencher essa lacuna oferecendo uma plataforma dedicada e focada nas necessidades dos gamers.
+
 ## Estrutura do Projeto
 
-O projeto está organizado da seguinte forma:
+A documentação está organizada da seguinte forma:
 
 - **`documents/`**: Pasta contendo documentos importantes relacionados ao projeto.
   - [Modelo Arquitetural](documents/ModeloArquitetural.md): Descrição detalhada da arquitetura do aplicativo.
   - [Business Model Canvas](documents/BusinessModelCanvas.md): Análise do modelo de negócios para a rede social de gamers.
+  - [User Stories](documents/UserStories.md): Histórias do usuário detalhadas para a funcionalidade do aplicativo.
 
 ## Funcionalidades
 
