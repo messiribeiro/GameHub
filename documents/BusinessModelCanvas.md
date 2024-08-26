@@ -50,3 +50,5 @@
 - **Desenvolvimento e Manutenção do Aplicativo**: Incluindo salários de desenvolvedores e custos de infraestrutura.
 - **Marketing e Publicidade**: Para atrair e manter usuários.
 - **Servidores e Tecnologia**: Custos para hospedar e escalar a plataforma.
+
+![Business Model Canvas](documents/businessmodelcanvas.png)
