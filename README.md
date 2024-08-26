@@ -1,65 +1,38 @@
-# Modelo Arquitetural
+# Projeto de Rede Social para Gamers
 
-## 1. Arquitetura Geral
+Bem-vindo ao projeto de **Rede Social para Gamers**! Este projeto visa criar uma plataforma social que conecta gamers, facilitando a busca de parceiros de jogo e promovendo uma comunidade vibrante para compartilhamento de experiências e dicas.
 
-### 1.1 Frontend (Cliente)
-**Tecnologia**: React, React Native
+## Descrição do Projeto
 
-**Componentes**:
-- Tela de Login e Cadastro
-- Tela de Perfil do Usuário
-- Tela de Busca de Jogadores
-- Tela de Criação de Grupos de Jogo
-- Tela de Chat
-- Notificações
+O objetivo principal deste projeto é desenvolver um aplicativo móvel que permita aos gamers encontrar parceiros para jogar com base em interesses e estilos de jogo. Além disso, o aplicativo criará uma comunidade onde os usuários podem interagir, formar grupos e compartilhar suas experiências de jogo.
 
-### 1.2 Backend (Servidor)
-**Tecnologia**: Node.js
+## Estrutura do Projeto
 
-**Componentes**:
-- **Autenticação**: Sistema de login e gerenciamento de sessões
-- **Perfil do Usuário**: CRUD (Create, Read, Update, Delete) para perfis
-- **Busca de Jogadores**: Algoritmo para encontrar jogadores com base em critérios
-- **Grupos de Jogo**: CRUD para grupos e gerenciamento de membros
-- **Chat**: Sistema de mensagens em tempo real
-- **Notificações**: Envio de notificações push para eventos importantes
+O projeto está organizado da seguinte forma:
 
-### 1.3 Banco de Dados
-**Tecnologia**: PostgreSQL
+- **`documents/`**: Pasta contendo documentos importantes relacionados ao projeto.
+  - [Modelo Arquitetural](documents/ModeloArquitetural.md): Descrição detalhada da arquitetura do aplicativo.
+  - [Business Model Canvas](documents/BusinessModelCanvas.md): Análise do modelo de negócios para a rede social de gamers.
 
-**Estrutura**:
-- **Usuários**: Dados do perfil, preferências de jogos, histórico de atividades
-- **Jogos**: Informações sobre jogos, categorias, e popularidade
-- **Grupos de Jogo**: Dados sobre grupos, membros e atividades
-- **Mensagens**: Histórico de chat entre usuários
+## Funcionalidades
 
-### 1.4 APIs
-**APIs Externas**:
-- **Autenticação**: Serviços de autenticação social 
-- **Dados de Jogos**: APIs para obter informações sobre jogos
-- **Pagamento**: APIs para efetuar o pagamento de compras realizadas dentro do aplicativo.
+- **Recomendações Personalizadas**: Encontrar parceiros de jogo com base no perfil e preferências dos usuários.
+- **Comunidade Interativa**: Fóruns, chats e grupos para interação entre gamers.
+- **Suporte ao Usuário**: Sistema para resolver dúvidas e problemas dos usuários.
 
+## Tecnologias Utilizadas
 
-## 2. Fluxo de Dados
+- **React Native**: Para o desenvolvimento do aplicativo móvel.
+- **Git**: Para controle de versão e colaboração no projeto.
+- **GitHub**: Para hospedagem do repositório e gerenciamento de código-fonte.
 
-1. **Autenticação e Cadastro**:
-   - O usuário se registra ou faz login no aplicativo.
-   - O backend valida e cria uma sessão para o usuário.
+## Licença
 
-2. **Perfil e Busca**:
-   - O usuário edita seu perfil e define preferências de jogos.
-   - O backend armazena as informações e permite a busca de jogadores com base nas preferências.
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
-3. **Grupos de Jogo**:
-   - O usuário cria ou participa de grupos de jogo.
-   - O backend gerencia as interações e a estrutura dos grupos.
+## Contato
 
-4. **Chat e Notificações**:
-   - O usuário envia e recebe mensagens em tempo real.
-   - O backend gerencia o chat e envia notificações para eventos importantes.
+Se você tiver alguma dúvida ou precisar de ajuda, sinta-se à vontade para entrar em contato:
 
-## 3. Considerações Adicionais
-
-- **Escalabilidade**: Devemos considerar que o sistema vai escalar com o aumento do número de usuários.
-- **Segurança**: Temos que garantir a proteção dos dados dos usuários e a segurança das comunicações.
-- **Desempenho**: Devemos otimizar o desempenho do backend e do frontend para uma boa experiência do usuário.
+- **Email**: micael.ribeiro@mail.uft.edu.br
+- **GitHub**: [messiribeiro](https://github.com/messiribeiro)
