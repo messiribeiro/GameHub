@@ -1,19 +1,4 @@
-### Sprint 1: Autenticação de Usuário
-
-1. **Configuração do Projeto**:
-    - Configurar o ambiente de desenvolvimento e repositório de código.
-2. **Implementação da interface**:
-    - Implementar as interfaces com base no protótipo
-3. **Cadastro de Usuário**:
-    - Implementar a funcionalidade de cadastro com e-mail e senha.
-4. **Login de Usuário**:
-    - Desenvolver a funcionalidade de login com validação de credenciais.
-5. **Recuperação de Senha**:
-    - Criar um sistema para recuperação de senha via e-mail.
-6. **Verificação de E-mail**:
-    - Implementar a verificação de e-mail para confirmar a identidade dos usuários.
-
-### Sprint 2: Perfis de Usuário e Recomendações Personalizadas
+### Sprint 1: Perfis de Usuário e Recomendações Personalizadas
 
 1. **Perfis de Usuário**:
     - Implementar perfis com informações sobre jogos, preferências.
