@@ -12,7 +12,6 @@ Através de pesquisas, percebemos que não existe uma rede social conhecida que 
 
 A documentação está organizada da seguinte forma:
 
-- **`documents/`**: Pasta contendo documentos importantes relacionados ao projeto.
   - [Modelo Arquitetural](documents/ModeloArquitetural.md): Descrição detalhada da arquitetura do aplicativo.
   - [Business Model Canvas](documents/BusinessModelCanvas.md): Análise do modelo de negócios para a rede social de gamers.
   - [User Stories](documents/UserStories.md): Histórias do usuário detalhadas para a funcionalidade do aplicativo.
