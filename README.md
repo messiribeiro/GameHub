@@ -1,4 +1,4 @@
-# Projeto de Rede Social para Gamers (Ainda não tem nome)
+# GameHub
 
 Bem-vindo ao projeto de **Rede Social para Gamers**! Este projeto visa criar uma plataforma social que conecta gamers, facilitando a busca de parceiros de jogo e promovendo uma comunidade vibrante para compartilhamento de experiências e dicas.
 
