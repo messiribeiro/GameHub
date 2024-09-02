@@ -14,7 +14,7 @@
 - Notificações
 
 ### 1.2 Backend (Servidor)
-**Tecnologia**: Node.js
+**Tecnologia**: Node.js (Framework: Nestjs)
 
 **Componentes**:
 - **Autenticação**: Sistema de login e gerenciamento de sessões
@@ -63,3 +63,10 @@
 - **Escalabilidade**: Devemos considerar que o sistema vai escalar com o aumento do número de usuários.
 - **Segurança**: Temos que garantir a proteção dos dados dos usuários e a segurança das comunicações.
 - **Desempenho**: Devemos otimizar o desempenho do backend e do frontend para uma boa experiência do usuário.
+- **Flexibilidade**: Nossa arquitetura visa tornar o código reutilizável, de fácil manutenção, testável e consequentemente um software mais sucetível a mudanças inevitáveis ​​nos requisitos do cliente (o que sempre acontece).
+- **Arquitetura limpa**: É utilizado princípios de injeção e inversão de depedências 
+
+[modelo arquitetural](https://github.com/user-attachments/assets/bf79f8d1-42b9-4bae-a212-d97ca360f918)
+[camadas da aplicação](https://github.com/user-attachments/assets/16f385b0-a477-4690-a634-dd44872af7db)
+[Exemplo de código](https://github.com/lauroolim/arch-pattern)
+
