@@ -35,6 +35,7 @@
 
 ### Sprint 1: Filtro de Perfis de Usuários
 **Valor**:  Permitir que os usuários encontrem novos jogadores dispostos a jogarem juntos 
+
 **Desenvolvimento do Backend**
 **Objetivo**: Implementar a lógica de filtragem no servidor.
 
@@ -84,7 +85,7 @@
     - Conduzir testes de usabilidade com usuários reais
     - Coletar feedback e realizar ajustes na interface de usuário
 
-**Testes e Validação** 
+**Testes e Revisão** 
 
 **Objetivo**: Garantir que o filtro funcione corretamente
 
