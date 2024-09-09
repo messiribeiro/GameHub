@@ -1,6 +1,6 @@
 # GameHub
 
-![logo-GameHub](https://github.com/user-attachments/assets/4dd5de4e-9641-409c-806d-2b125f55bfca)
+![logo gamehub](https://github.com/user-attachments/assets/a845c491-2e65-45de-bd36-c8298866afc9)
 
 Bem-vindo ao projeto de **Rede Social para Gamers**! Este projeto visa criar uma plataforma social que conecta gamers, facilitando a busca de parceiros de jogo e promovendo uma comunidade vibrante para compartilhamento de experiências e dicas.
 
