@@ -1,16 +1,13 @@
 # MVP
 
 O produto mínimo viável para o nosso projeto incluiria:
-- Sistema de Amizades funcional
+
+- Sistema de Amizades Funcional
 - Mecanismo para os usuários seguirem outros usuários ou adicionar amigos.
-- Exibição de postagens no feed com base nas conexões estabelecidas.
-- Ferramenta de Chat com amigos
+- Filtros Especializados por comunidade de jogo que o usuário está inserido
+- Filtro por rank do usuário no jogo, Notas de interações com outros usuários,Tempo de jogo dos usuários.
 
-- Feed de Publicações
-- Capacidade para os usuários criarem e publicarem conteúdos, como textos curtos ou imagens.
-- Um feed central onde os usuários podem ver as postagens de outros usuários.
-
-Esse MVP permitiria que os usuários se conectassem, compartilhassem conteúdos e interagissem uns com os outros, oferecendo uma experiência mínima mas funcional de uma rede social. As funcionalidades podem ser expandidas com base no feedback e nas necessidades observadas durante o uso do MVP.
+Esse MVP permitirá que os usuários se conectem, compartilhem conteúdos e interajam uns com os outros, oferecendo uma experiência mínima, mas funcional, de uma rede social. As funcionalidades podem ser expandidas com base no feedback e nas necessidades observadas durante o uso do MVP.
 
 ## Critérios de Aceitação
 
