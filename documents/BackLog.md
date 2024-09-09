@@ -6,6 +6,7 @@
 4. **RN4**: Os usuários devem poder adicionar outros usuários como amigos
 5. **RN5**: Os usuários devem poder enviar e receber mensagens privadas
 6. **RN6**: Os usuários devem poder criar e participar de grupos de interesse.
+7. **RN7**: Somente usuários autenticados com plano premium poderão acessar filtros avançados, como rank e notas de interações.
 
 ### Requisitos Funcionais (RF)
 
