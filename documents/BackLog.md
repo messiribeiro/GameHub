@@ -147,6 +147,7 @@
 
 **Objetivo**: Implementar a funcionalidade de visualização de perfil e chat privado em tempo real.
 
+Revisor (Lauro)
 **Tarefas**:
 
 1. **Perfil de Usuário** (Lauro)
@@ -171,9 +172,10 @@
 
 **Objetivo**: Implementar a interface de usuário para visualização de perfil e chat privado.
 
+Revisor: (Micael)
 **Tarefas**:
  
-1. **Desenvolvimento dos Componentes de UI para Perfil e Chat** (Micael)
+1. **Desenvolvimento dos Componentes de UI para Perfil e Chat** (Micael) 
     - Criar componentes de UI para exibir os detalhes do perfil de usuário.
     - Implementar a interface para o chat privado, incluindo caixas de mensagem, histórico de chat e notificações.
     - Criar a tela para gerenciar amizades, incluindo envio e recebimento de solicitações.
