@@ -20,7 +20,7 @@ A documentação está organizada da seguinte forma:
   - [Backlog](documents/BackLog.md): Requisitos funcionais, não funcionais e regra de negócio
   - [Escalabilidade](documents/Escalabilidade.md): Escalabilidade do modelo de negócio e estudo da concorrência
   - [MVP](documents/MVP.md): minínimo produto viável que geraria valor às partes involvidas
-
+  - [Trello](https://trello.com/c/Iq7IBeFU/21-gerenciamento-de-amizade-backend-lucas)
 Repositórios:
 
   - [Backend](https://github.com/lauroolim/gamehub-backend)
