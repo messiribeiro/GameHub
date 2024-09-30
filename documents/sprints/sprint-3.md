@@ -7,6 +7,7 @@
 - **RF15:** Permitir que os usuários curtam e comentem nas publicações.
 - **RF16:** Exibir um feed de publicações dos usuários.
 - **RF17:** Permitir que os usuários excluam suas próprias publicações.
+- **RF18:** Permitir que os usuários enviem imagens e vídeos no chat.
 
 ## Requisitos Não-Funcionais:
 - **RNF1:** A senha do usuário precisa estar criptografada.
@@ -42,7 +43,7 @@
 ### Valor:Interações com Publicações (Lucas)
 
 #### RF13: Permitir que usuários curtam as publicações dos outros
-
+#### RF18: Permitir que os usuários enviem imagens e vídeos no chat.
 #### Regras de Negócio
 
 - Apenas usuários autenticados podem curtir postagens.
@@ -51,6 +52,7 @@
 
 - O sistema deve permitir que usuários curtam ou descurtam postagens.
 - O sistema deve mostrar o total de curtidas na postagem.
+- O usuário deve convesguir enviar imagens e vídeos.
 
 ### Tarefas:
 
@@ -68,7 +70,9 @@
 ### Tarefas:
 #### Desenvolvimento dos Componentes de UI para Publicações (Micael)
 
-Objetivo: Como um usuário, eu quero visualizar um feed atualizado para ver as atividades mais recentes dos meus amigos
+Objetivo: Como um usuário, eu quero visualizar um feed atualizado para ver as atividades mais recentes dos meus amigos.
+
+![image](https://github.com/user-attachments/assets/92f0cab7-32f5-487f-b7c3-3bbd5e423310)
 
 - Criar componentes de UI para exibir o feed de publicações.
 - Implementar a interface para criar novas publicações.
@@ -77,6 +81,10 @@ Objetivo: Como um usuário, eu quero visualizar um feed atualizado para ver as a
 #### Integração com os Endpoints do Backend (Almir)
 
 Objetivo: Como um usuário, eu quero interagir com as publicações diretamente na interface para que a experiência seja dinâmica
+
+![image](https://github.com/user-attachments/assets/331bffb3-7afe-4843-9730-df1dcf5d08ee)
+![image](https://github.com/user-attachments/assets/e7eeaf40-6ee0-4f20-af55-026436f64d48)
+
 
 - Integrar os componentes de UI com os endpoints de publicações do backend.
 - Garantir que as publicações sejam carregadas de forma paginada na interface de usuário.
