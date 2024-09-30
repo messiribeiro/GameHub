@@ -39,7 +39,7 @@
 - Criar endpoints RESTful para criar, ler, atualizar e excluir publicações.
 - Garantir que as publicações sejam carregadas de forma paginada.
 
-### Valor: Interações com Publicações (Lucas)
+### Valor:Interações com Publicações (Lucas)
 
 #### RF13: Permitir que usuários curtam as publicações dos outros
 
@@ -67,20 +67,30 @@
 
 ### Tarefas:
 #### Desenvolvimento dos Componentes de UI para Publicações (Micael)
+
+Objetivo: Como um usuário, eu quero visualizar um feed atualizado para ver as atividades mais recentes dos meus amigos
+
 - Criar componentes de UI para exibir o feed de publicações.
 - Implementar a interface para criar novas publicações.
 - Criar componentes de UI para curtir e comentar nas publicações.
 
 #### Integração com os Endpoints do Backend (Almir)
+
+Objetivo: Como um usuário, eu quero interagir com as publicações diretamente na interface para que a experiência seja dinâmica
+
 - Integrar os componentes de UI com os endpoints de publicações do backend.
 - Garantir que as publicações sejam carregadas de forma paginada na interface de usuário.
 - Implementar a lógica de interações (curtidas e comentários) no frontend.
 
 #### Autenticação no Frontend (Micael)
+
+Objetivo: Como um usuário, eu quero que minha sessão seja mantida de forma segura para que eu possa acessar as funcionalidades sem me autenticar repetidamente
+
 - Garantir que apenas usuários autenticados possam acessar as funcionalidades de publicações e interações.
 - Implementar a lógica de autenticação no frontend utilizando JWT para proteger o acesso às funcionalidades.
 
 #### Testes de Usabilidade e Ajustes (Almir)
+
 - Conduzir testes de usabilidade com usuários reais para a funcionalidade de publicações no feed.
 - Coletar feedback e realizar ajustes na interface de usuário para melhorar a experiência.
 
