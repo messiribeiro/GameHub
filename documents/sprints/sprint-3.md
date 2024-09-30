@@ -20,7 +20,7 @@
 **Objetivo:** Implementar a funcionalidade de publicações no feed e interações com as publicações.
 
 
-### Sistema de Publicações (Lauro)
+### Valor: Sistema de Publicações (Lauro)
 
 #### RF12: Permitir que usuários comentem nas publicações dos outros
 
@@ -39,7 +39,7 @@
 - Criar endpoints RESTful para criar, ler, atualizar e excluir publicações.
 - Garantir que as publicações sejam carregadas de forma paginada.
 
-### Interações com Publicações (Lucas)
+### Valor: Interações com Publicações (Lucas)
 
 #### RF13: Permitir que usuários curtam as publicações dos outros
 
