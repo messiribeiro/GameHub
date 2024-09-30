@@ -23,7 +23,7 @@ A documentação está organizada da seguinte forma:
   - [Trello](https://trello.com/c/Iq7IBeFU/21-gerenciamento-de-amizade-backend-lucas)
 Repositórios:
 
-  - [Backend](https://github.com/lauroolim/gamehub-backend)
+  - [Backend](https://github.com/lauroolim/gamehub-back)
   - [Frontend]()
 
 ## Funcionalidades
