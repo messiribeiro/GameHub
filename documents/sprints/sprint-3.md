@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9b86f33a-8519-4cc8-9ae3-c6149e235c97)# Sprint 3: Sistema de Publicações no Feed
+# Sprint 3: Sistema de Publicações no Feed
 
 **Valor:** Permitir que os usuários façam publicações no feed, interajam com as publicações de outros usuários e visualizem um feed de atividades.
 
