@@ -7,6 +7,7 @@
 - **RF15:** Permitir que os usuários curtam e comentem nas publicações.
 - **RF16:** Exibir um feed de publicações dos usuários.
 - **RF17:** Permitir que os usuários excluam suas próprias publicações.
+- **RF18:** Permitir que os usuários enviem imagens e vídeos no chat.
 
 ## Requisitos Não-Funcionais:
 - **RNF1:** A senha do usuário precisa estar criptografada.
@@ -42,7 +43,7 @@
 ### Valor:Interações com Publicações (Lucas)
 
 #### RF13: Permitir que usuários curtam as publicações dos outros
-
+#### RF18: Permitir que os usuários enviem imagens e vídeos no chat.
 #### Regras de Negócio
 
 - Apenas usuários autenticados podem curtir postagens.
@@ -51,6 +52,7 @@
 
 - O sistema deve permitir que usuários curtam ou descurtam postagens.
 - O sistema deve mostrar o total de curtidas na postagem.
+- O usuário deve convesguir enviar imagens e vídeos.
 
 ### Tarefas:
 
