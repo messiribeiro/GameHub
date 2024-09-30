@@ -1,4 +1,4 @@
-# Sprint 3: Sistema de Publicações no Feed
+![image](https://github.com/user-attachments/assets/9b86f33a-8519-4cc8-9ae3-c6149e235c97)# Sprint 3: Sistema de Publicações no Feed
 
 **Valor:** Permitir que os usuários façam publicações no feed, interajam com as publicações de outros usuários e visualizem um feed de atividades.
 
@@ -68,7 +68,9 @@
 ### Tarefas:
 #### Desenvolvimento dos Componentes de UI para Publicações (Micael)
 
-Objetivo: Como um usuário, eu quero visualizar um feed atualizado para ver as atividades mais recentes dos meus amigos
+Objetivo: Como um usuário, eu quero visualizar um feed atualizado para ver as atividades mais recentes dos meus amigos.
+
+![image](https://github.com/user-attachments/assets/92f0cab7-32f5-487f-b7c3-3bbd5e423310)
 
 - Criar componentes de UI para exibir o feed de publicações.
 - Implementar a interface para criar novas publicações.
@@ -77,6 +79,10 @@ Objetivo: Como um usuário, eu quero visualizar um feed atualizado para ver as a
 #### Integração com os Endpoints do Backend (Almir)
 
 Objetivo: Como um usuário, eu quero interagir com as publicações diretamente na interface para que a experiência seja dinâmica
+
+![image](https://github.com/user-attachments/assets/331bffb3-7afe-4843-9730-df1dcf5d08ee)
+![image](https://github.com/user-attachments/assets/e7eeaf40-6ee0-4f20-af55-026436f64d48)
+
 
 - Integrar os componentes de UI com os endpoints de publicações do backend.
 - Garantir que as publicações sejam carregadas de forma paginada na interface de usuário.
