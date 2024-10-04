@@ -2,115 +2,110 @@
 
 **Valor:** Permitir que os usuários façam publicações no feed, interajam com as publicações de outros usuários e visualizem um feed de atividades.
 
-## Requisitos Funcionais:
-- **RF14:** Permitir que os usuários façam publicações no feed.
-- **RF15:** Permitir que os usuários curtam e comentem nas publicações.
-- **RF16:** Exibir um feed de publicações dos usuários.
-- **RF17:** Permitir que os usuários excluam suas próprias publicações.
-- **RF18:** Permitir que os usuários enviem imagens e vídeos no chat.
+## User Stories e Regras de Negócio
 
-## Requisitos Não-Funcionais:
-- **RNF1:** A senha do usuário precisa estar criptografada.
-- **RNF2:** Os dados da aplicação precisam estar persistidos no PostgreSQL.
-- **RNF4:** O usuário deve ser identificado por um JWT (JSON Web Token).
-- **RNF6:** A aplicação deve ter alta disponibilidade.
-- **RNF7:** Deverão ser feitos testes unitários e de integração com a biblioteca faker js.
-- **RNF8:** As publicações devem ser carregadas de forma eficiente e paginada.
-
-## Desenvolvimento do Backend
-**Objetivo:** Implementar a funcionalidade de publicações no feed e interações com as publicações.
-
-
-### Valor: Sistema de Publicações (Lauro)
-
-#### RF12: Permitir que usuários comentem nas publicações dos outros
-
-#### Regras de Negócio
-
-- Somente usuários autenticados podem comentar.
-
-#### Critérios de Aceitação
-
-- O sistema deve permitir que usuários adicionem comentários nas postagens.
-- O sistema deve exibir comentários na ordem cronológica.
-
-### Tarefas:
-
-- Implementar a lógica para criação de publicações no feed.
-- Criar endpoints RESTful para criar, ler, atualizar e excluir publicações.
-- Garantir que as publicações sejam carregadas de forma paginada.
-
-### Valor:Interações com Publicações (Lucas)
-
-#### RF13: Permitir que usuários curtam as publicações dos outros
-#### RF18: Permitir que os usuários enviem imagens e vídeos no chat.
-#### Regras de Negócio
-
-- Apenas usuários autenticados podem curtir postagens.
-
-#### Critérios de Aceitação
-
-- O sistema deve permitir que usuários curtam ou descurtam postagens.
-- O sistema deve mostrar o total de curtidas na postagem.
-- O usuário deve convesguir enviar imagens e vídeos.
-
-### Tarefas:
-
-- Implementar a lógica para curtir e comentar nas publicações.
-- Criar endpoints RESTful para gerenciar curtidas e comentários.
-- Garantir que apenas usuários autenticados possam interagir com as publicações.
-
-### Testes de Backend (Lauro)
-- Escrever testes unitários e de integração para as funcionalidades de publicações e interações.
-- Utilizar a lib faker para gerar dados de teste e garantir a cobertura de todos os casos possíveis.
-
-## Desenvolvimento do Frontend
-**Objetivo:** Implementar a interface de usuário para o sistema de publicações no feed e interações.
-
-### Tarefas:
-#### Desenvolvimento dos Componentes de UI para Publicações (Micael)
-
-Objetivo: Como um usuário, eu quero visualizar um feed atualizado para ver as atividades mais recentes dos meus amigos.
+### User Story 1
+Como um usuário registrado, eu quero poder fazer publicações no feed, para que eu possa compartilhar atualizações com meus amigos.
 
 ![image](https://github.com/user-attachments/assets/92f0cab7-32f5-487f-b7c3-3bbd5e423310)
 
-- Criar componentes de UI para exibir o feed de publicações.
-- Implementar a interface para criar novas publicações.
-- Criar componentes de UI para curtir e comentar nas publicações.
+#### Regra de Negócio
+- Somente usuários autenticados podem criar publicações.
 
-#### Integração com os Endpoints do Backend (Almir)
+#### Tarefas:
+**Backend:**
+- Implementar a lógica para criação de publicações.
+- Criar um endpoint RESTful para criar publicações.
 
-Objetivo: Como um usuário, eu quero interagir com as publicações diretamente na interface para que a experiência seja dinâmica
+**Frontend:**
+- Criar a interface para nova publicação.
+- Implementar a lógica para enviar publicações ao backend.
 
-![image](https://github.com/user-attachments/assets/331bffb3-7afe-4843-9730-df1dcf5d08ee)
+#### Critérios de Aceitação:
+- O sistema deve permitir que usuários autenticados criem publicações.
+- As publicações devem ser exibidas no feed após a criação.
+
+---
+
+### User Story 2
+Como um usuário, eu quero poder curtir e comentar nas publicações, para que eu possa interagir com o conteúdo dos outros.
+
 ![image](https://github.com/user-attachments/assets/e7eeaf40-6ee0-4f20-af55-026436f64d48)
 
 
-- Integrar os componentes de UI com os endpoints de publicações do backend.
-- Garantir que as publicações sejam carregadas de forma paginada na interface de usuário.
-- Implementar a lógica de interações (curtidas e comentários) no frontend.
+#### Regra de Negócio
+- Apenas usuários autenticados podem curtir e comentar nas publicações.
 
-#### Autenticação no Frontend (Micael)
+#### Tarefas:
+**Backend:**
+- Criar endpoints RESTful para curtir e comentar publicações.
 
-Objetivo: Como um usuário, eu quero que minha sessão seja mantida de forma segura para que eu possa acessar as funcionalidades sem me autenticar repetidamente
+**Frontend:**
+- Criar componentes de UI para curtir e comentar.
+- Implementar a lógica para interações no frontend.
 
-- Garantir que apenas usuários autenticados possam acessar as funcionalidades de publicações e interações.
-- Implementar a lógica de autenticação no frontend utilizando JWT para proteger o acesso às funcionalidades.
+#### Critérios de Aceitação:
+- O sistema deve permitir que usuários curtam e descurtam publicações.
+- O sistema deve exibir o total de curtidas em cada publicação.
+- Os comentários devem ser exibidos em ordem cronológica.
 
-#### Testes de Usabilidade e Ajustes (Almir)
+---
 
-- Conduzir testes de usabilidade com usuários reais para a funcionalidade de publicações no feed.
-- Coletar feedback e realizar ajustes na interface de usuário para melhorar a experiência.
+### User Story 3
+Como um usuário, eu quero visualizar um feed de publicações, para que eu possa acompanhar as atividades mais recentes dos meus amigos.
 
-## Testes e Revisão (Todos)
-**Objetivo:** Garantir que a funcionalidade de publicações no feed e interações funcionem corretamente.
+![image](https://github.com/user-attachments/assets/331bffb3-7afe-4843-9730-df1dcf5d08ee)
 
-### Tarefas:
+#### Regra de Negócio
+- O sistema deve carregar publicações de forma paginada.
 
-#### Testes de Usabilidade com Usuários Reais
-- Conduzir testes de usabilidade com um grupo de usuários reais para as funcionalidades de publicações no feed.
-- Coletar feedback sobre a experiência do usuário e identificar possíveis melhorias.
+#### Tarefas:
+**Backend:**
+- Criar um endpoint RESTful para buscar publicações paginadas.
 
-#### Correções e Melhorias
-- Implementar melhorias e/ou correções com base no feedback dos usuários.
-- Atualizar a documentação e realizar quaisquer ajustes necessários antes do próximo ciclo de desenvolvimento.
+**Frontend:**
+- Criar componentes de UI para exibir o feed de publicações.
+- Implementar a lógica para carregar publicações de forma paginada.
+
+#### Critérios de Aceitação:
+- O feed deve mostrar as publicações mais recentes.
+- As publicações devem ser carregadas de forma eficiente.
+
+---
+
+### User Story 4
+Como um usuário, eu quero poder excluir minhas próprias publicações, para que eu possa remover conteúdo indesejado.
+
+#### Regra de Negócio
+- Somente o autor da publicação pode excluí-la.
+
+#### Tarefas:
+**Backend:**
+- Criar um endpoint RESTful para excluir publicações.
+
+**Frontend:**
+- Implementar a lógica de exclusão de publicações na interface.
+
+#### Critérios de Aceitação:
+- O sistema deve permitir que o autor exclua suas publicações.
+- As publicações excluídas não devem mais aparecer no feed.
+
+---
+
+### User Story 5
+Como um usuário, eu quero enviar imagens e vídeos nas minhas publicações, para que eu possa enriquecer meu conteúdo.
+
+#### Regra de Negócio
+- Apenas usuários autenticados podem enviar mídias.
+
+#### Tarefas:
+**Backend:**
+- Implementar a lógica para upload de imagens e vídeos.
+
+**Frontend:**
+- Criar componentes de UI para enviar mídias.
+- Implementar a lógica para envio de mídias ao backend.
+
+#### Critérios de Aceitação:
+- O sistema deve permitir o upload de imagens e vídeos.
+- As mídias devem ser exibidas corretamente nas publicações.
