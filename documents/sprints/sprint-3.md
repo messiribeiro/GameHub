@@ -5,7 +5,7 @@
 ## User Stories e Regras de Negócio
 
 ### User Story 1
-Como um usuário registrado, eu quero poder fazer publicações no feed, para que eu possa compartilhar atualizações com meus amigos.
+Como um usuário registrado, eu quero poder fazer publicações de texto no feed, para que eu possa compartilhar atualizações com meus amigos.
 
 ![image](https://github.com/user-attachments/assets/92f0cab7-32f5-487f-b7c3-3bbd5e423310)
 
@@ -14,12 +14,11 @@ Como um usuário registrado, eu quero poder fazer publicações no feed, para qu
 
 #### Tarefas:
 **Backend:**
-- Implementar a lógica para criação de publicações.
-- Criar um endpoint RESTful para criar publicações.
+- Criar um endpoint RESTful para criar publicações. (Lauro)
 
 **Frontend:**
-- Criar a interface para nova publicação.
-- Implementar a lógica para enviar publicações ao backend.
+- Criar a interface para nova publicação. (Micael)
+- Implementar a lógica para enviar publicações ao backend. (Micael)
 
 #### Critérios de Aceitação:
 - O sistema deve permitir que usuários autenticados criem publicações.
@@ -38,16 +37,18 @@ Como um usuário, eu quero poder curtir e comentar nas publicações, para que e
 
 #### Tarefas:
 **Backend:**
-- Criar endpoints RESTful para curtir e comentar publicações.
+- Criar endpoints RESTful para curtir e descurtir (Lucas)
+- e endpoints RESTful para comentar em publicações (Lucas)
 
 **Frontend:**
-- Criar componentes de UI para curtir e comentar.
-- Implementar a lógica para interações no frontend.
+- Criar componentes de UI para curtir. (Lauro)
+- Criar componentes de UI para comentar. (Almir)
 
 #### Critérios de Aceitação:
 - O sistema deve permitir que usuários curtam e descurtam publicações.
 - O sistema deve exibir o total de curtidas em cada publicação.
 - Os comentários devem ser exibidos em ordem cronológica.
+- O usuário não pode curtir mais de uma vez a mesma publicação
 
 ---
 
@@ -61,11 +62,13 @@ Como um usuário, eu quero visualizar um feed de publicações, para que eu poss
 
 #### Tarefas:
 **Backend:**
-- Criar um endpoint RESTful para buscar publicações paginadas.
+- Criar um endpoint RESTful para buscar publicações paginadas. (Lauro)
+- Lógica para armazenar o estado do usuário (Online/Offline) (Lauro)
 
 **Frontend:**
-- Criar componentes de UI para exibir o feed de publicações.
-- Implementar a lógica para carregar publicações de forma paginada.
+- Criar componentes de UI para exibir o feed de publicações. (Micael)
+- Implementar a lógica para carregar publicações de forma paginada. (Micael)
+- UI que retorna se o usuário está Online/Offline e o tempo referente a esses estados (Tharcio)
 
 #### Critérios de Aceitação:
 - O feed deve mostrar as publicações mais recentes.
@@ -74,17 +77,19 @@ Como um usuário, eu quero visualizar um feed de publicações, para que eu poss
 ---
 
 ### User Story 4
-Como um usuário, eu quero poder excluir minhas próprias publicações, para que eu possa remover conteúdo indesejado.
+Como um usuário, eu quero poder excluir minhas próprias publicações e comentários, para que eu possa remover conteúdo indesejado.
 
 #### Regra de Negócio
 - Somente o autor da publicação pode excluí-la.
 
 #### Tarefas:
 **Backend:**
-- Criar um endpoint RESTful para excluir publicações.
+- Criar um endpoint RESTful para excluir publicações. (Micael)
+- Criar um endpoint RESTful para excluir comentários. (Almir)
 
 **Frontend:**
-- Implementar a lógica de exclusão de publicações na interface.
+- Implementar a lógica de exclusão de publicações na interface. (Micael)
+- Implementar a lógica de exclusão de comentários na interface. (Almir)
 
 #### Critérios de Aceitação:
 - O sistema deve permitir que o autor exclua suas publicações.
@@ -100,12 +105,15 @@ Como um usuário, eu quero enviar imagens e vídeos nas minhas publicações, pa
 
 #### Tarefas:
 **Backend:**
-- Implementar a lógica para upload de imagens e vídeos.
+- Implementar a lógica para upload de imagens e vídeos. (Lauro)
+- Configurar S3 para armazenamento (Lauro)
+- Validar  tipos de arquivo e tamanhos permitidos (Lauro)
 
 **Frontend:**
-- Criar componentes de UI para enviar mídias.
-- Implementar a lógica para envio de mídias ao backend.
+- Criar componentes de UI para enviar mídias. (Lucas)
+- Implementar a lógica para envio de mídias ao backend. (Almir)
 
 #### Critérios de Aceitação:
 - O sistema deve permitir o upload de imagens e vídeos.
 - As mídias devem ser exibidas corretamente nas publicações.
+- As mídias devem estar sendo armazenadas no serviço da AWS (S3)
