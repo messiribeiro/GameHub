@@ -21,9 +21,11 @@
 8. **RF8**: Adicionar outros usuários como amigos
 9. **RF9**: enviar e receber mensagens privadas
 10. **RF10**: criar e participar de grupos de interesse
-11. **RF11**: Deve ser possvel que usuários atualizem seus perfis de interesse
-12. **RF12**: Deve ser possvel que usuários comentem nas publicações dos outros
-13. **RF13**: Deve ser possvel que usuários curtam as publicações dos outros
+11. **RF11**: Deve ser possivel que usuários atualizem seus perfis de interesse
+12. **RF12**: Deve ser possivel que os usuários façam publicações (texto/foto/vídeo)
+13. **RF13**: Deve ser possivel que usuários interajam com as publicações dos outros (comentem e curtam)
+14. **RF14**: Deve ser possivel que os usuários vejam as publicações de seus amigos em seu feed
+15. **RF15**: Deve ser possivel que os usuários gerenciem suas interações públicas (excluir comentarios/postagens)
 
 ### Requisitos Não-Funcionais (RNF)
 
