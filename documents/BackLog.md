@@ -1,13 +1,4 @@
 ## Product Backlog 
-### Regras de Negócio (RN)
-
-1. **RN1**: Os campos `username`, `email` e `password` serão de preenchimento obrigatório
-2. **RN2**: O usuário não deve poder se cadastrar com um e-mail duplicado.
-3. **RN3**: Os filtros de busca devem permitir múltiplas seleções (vários gêneros de jogos)
-4. **RN4**: Os usuários devem poder adicionar outros usuários como amigos
-5. **RN5**: Os usuários devem poder enviar e receber mensagens privadas
-6. **RN6**: Os usuários devem poder criar e participar de grupos de interesse.
-7. **RN7**: Somente usuários autenticados com plano premium poderão acessar filtros avançados, como rank e notas de interações.
 
 ### Requisitos Funcionais (RF)
 
@@ -26,6 +17,10 @@
 13. **RF13**: Deve ser possivel que usuários interajam com as publicações dos outros (comentem e curtam)
 14. **RF14**: Deve ser possivel que os usuários vejam as publicações de seus amigos em seu feed
 15. **RF15**: Deve ser possivel que os usuários gerenciem suas interações públicas (excluir comentarios/postagens)
+16. **RF16**: Adição de Jogos por Usuários Premium 
+17. **RF17**: Sistema de Pagamento para Tornar-se Premium
+18. **RF18**: Gestão de Assinaturas
+19. **RF19**: Benefícios de Usuário assinantes do plano gamedev (perfil de gamedev/ selo de gamedev)
 
 ### Requisitos Não-Funcionais (RNF)
 
