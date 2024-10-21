@@ -96,6 +96,8 @@
 - Criar UI para exibir o selo premium nos perfis. (Almir)
 - Implementar lógica de destaque de usuários premium nas buscas. (Micael)
 
+![image](https://github.com/user-attachments/assets/bf38415a-0edf-4f69-9dca-aac921d92c4e)
+
 #### Critérios de Aceitação:
 - Perfis de usuários premium devem exibir o selo.
 - Usuários premium devem aparecer em destaque nas buscas.
