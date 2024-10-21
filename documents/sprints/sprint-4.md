@@ -55,6 +55,8 @@
 ### Gestão de Assinaturas (RF-18)
 **Como** um usuário premium, **eu quero** gerenciar minha assinatura (cancelar ou renovar), **para** ter controle sobre meus pagamentos recorrentes.
 
+![image](https://github.com/user-attachments/assets/de0dbeac-af9e-4c94-a7a3-d4db713cd18b)
+
 #### Regra de Negócio
 - Usuários premium podem cancelar ou renovar suas assinaturas a qualquer momento.
 - O sistema deve alertar os usuários sobre a expiração de suas assinaturas.
@@ -69,9 +71,6 @@
 - Criar UI para que os usuários gerenciem suas assinaturas. (Micael)
 - Implementar lógica de alertas e gerenciamento de assinatura. (Micael)
 
-![image](https://github.com/user-attachments/assets/de0dbeac-af9e-4c94-a7a3-d4db713cd18b)
-
-
 #### Critérios de Aceitação:
 - Usuários devem ser capazes de cancelar ou renovar suas assinaturas.
 - O sistema deve enviar alertas automáticos para expiração de assinaturas.
@@ -80,6 +79,8 @@
 
 ### Benefícios de Usuário Premium (RF-19)
 **Como** um usuário premium, **eu quero** ter acesso a funcionalidades exclusivas, **como** um selo premium no perfil e mais visibilidade nas buscas.
+
+![image](https://github.com/user-attachments/assets/bf38415a-0edf-4f69-9dca-aac921d92c4e)
 
 #### Regra de Negócio
 - Usuários premium devem ter um selo destacado em seus perfis.
@@ -94,8 +95,6 @@
 **Frontend:**
 - Criar UI para exibir o selo premium nos perfis. (Almir)
 - Implementar lógica de destaque de usuários premium nas buscas. (Micael)
-
-![image](https://github.com/user-attachments/assets/bf38415a-0edf-4f69-9dca-aac921d92c4e)
 
 #### Critérios de Aceitação:
 - Perfis de usuários premium devem exibir o selo.
