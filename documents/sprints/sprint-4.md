@@ -70,7 +70,6 @@
 - Implementar lógica de alertas e gerenciamento de assinatura. (Micael)
 
 ![image](https://github.com/user-attachments/assets/de0dbeac-af9e-4c94-a7a3-d4db713cd18b)
-![image](https://github.com/user-attachments/assets/f55dc840-e7c8-44f5-adc9-3a15ab1a39ee)
 
 
 #### Critérios de Aceitação:
