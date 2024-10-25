@@ -1,4 +1,4 @@
-![Section 11](https://github.com/user-attachments/assets/5205bf08-b085-4c90-927b-4ae1c99cf601)# Sprint 4: Adição de Jogos por Usuários Premium e Sistema de Pagamento
+# Sprint 4: Adição de Jogos por Usuários Premium e Sistema de Pagamento
 
 **Valor:** Permitir que usuários premium (assinantes do plano "gamedev") adicionem seus jogos à rede social, aumentando a visibilidade de seus projetos e facilitando a interação com a comunidade. Também implementaremos um sistema de pagamento para que os usuários possam se tornar premium.
 
