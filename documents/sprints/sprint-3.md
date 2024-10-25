@@ -4,7 +4,7 @@
 
 ## User Stories e Regras de Negócio
 
-### User Story 1
+### Publicações de Texto (RF-12)
 Como um usuário registrado, eu quero poder fazer publicações de texto no feed, para que eu possa compartilhar atualizações com meus amigos.
 
 ![image](https://github.com/user-attachments/assets/92f0cab7-32f5-487f-b7c3-3bbd5e423310)
@@ -26,7 +26,7 @@ Como um usuário registrado, eu quero poder fazer publicações de texto no feed
 
 ---
 
-### User Story 2
+### Comentarios e curtidas em publicações (RF-13)
 Como um usuário, eu quero poder curtir e comentar nas publicações, para que eu possa interagir com o conteúdo dos outros.
 
 ![image](https://github.com/user-attachments/assets/e7eeaf40-6ee0-4f20-af55-026436f64d48)
@@ -52,7 +52,7 @@ Como um usuário, eu quero poder curtir e comentar nas publicações, para que e
 
 ---
 
-### User Story 3
+### Visualizar Publicações (RF-14)
 Como um usuário, eu quero visualizar um feed de publicações, para que eu possa acompanhar as atividades mais recentes dos meus amigos.
 
 ![image](https://github.com/user-attachments/assets/331bffb3-7afe-4843-9730-df1dcf5d08ee)
@@ -76,7 +76,7 @@ Como um usuário, eu quero visualizar um feed de publicações, para que eu poss
 
 ---
 
-### User Story 4
+### gerenciar suas interações públicas (RF-15)
 Como um usuário, eu quero poder excluir minhas próprias publicações e comentários, para que eu possa remover conteúdo indesejado.
 
 #### Regra de Negócio
@@ -97,7 +97,7 @@ Como um usuário, eu quero poder excluir minhas próprias publicações e coment
 
 ---
 
-### User Story 5
+### Publicações de fotos e vídeos (RF-12)
 Como um usuário, eu quero enviar imagens e vídeos nas minhas publicações, para que eu possa enriquecer meu conteúdo.
 
 #### Regra de Negócio
@@ -111,7 +111,7 @@ Como um usuário, eu quero enviar imagens e vídeos nas minhas publicações, pa
 
 **Frontend:**
 - Criar componentes de UI para enviar mídias. (Lucas)
-- Implementar a lógica para envio de mídias ao backend. (Almir)
+- Implementar a lógica para envio de mídias ao backend. (Micael)
 
 #### Critérios de Aceitação:
 - O sistema deve permitir o upload de imagens e vídeos.
