@@ -31,8 +31,10 @@
 
 ---
 
-### Adição de Jogos por Usuários Premium (RF-17)
+### Adição de Jogos por Usuários GameDev (RF-17)
 **Como** um usuário premium (gamedev), **eu quero** adicionar meus jogos à rede social, **para** promover meu trabalho e facilitar a interação com os jogadores.
+
+![iPhone 14   15 Pro Max - 43](https://github.com/user-attachments/assets/c0260340-78d2-4f55-8697-b4197f1aa1bf)
 
 #### Regra de Negócio
 - Apenas usuários premium podem adicionar jogos à plataforma.
