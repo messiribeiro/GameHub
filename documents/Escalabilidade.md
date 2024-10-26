@@ -8,7 +8,7 @@
 **Diferenciais e Soluções**:
 - Filtros de usuários mais atrativos, com filtro por rank no jogo, tempo de jogo, notas de interações com outros usuários (acessíveis no plano premium)
 - Possibilidade de login com conta do Discord e Steam, para atrair o público alvo
-- 
+- Plano de assinatura para GameDevs que querem divulgar seus projetos e construir uma relação mais proxima com a comunidade. 
 
 **Parcerias-Chave**
 - Desenvolvedores de jogos interessados a montarem um comunidade no nosso app
