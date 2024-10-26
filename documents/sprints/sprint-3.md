@@ -79,6 +79,9 @@ Como um usuário, eu quero visualizar um feed de publicações, para que eu poss
 ### gerenciar suas interações públicas (RF-15)
 Como um usuário, eu quero poder excluir minhas próprias publicações e comentários, para que eu possa remover conteúdo indesejado.
 
+![Section 5 (1)](https://github.com/user-attachments/assets/f7f3fdd8-2b5d-4d9e-90f4-31355aa83618)
+
+
 #### Regra de Negócio
 - Somente o autor da publicação pode excluí-la.
 
@@ -99,6 +102,9 @@ Como um usuário, eu quero poder excluir minhas próprias publicações e coment
 
 ### Publicações de fotos e vídeos (RF-12)
 Como um usuário, eu quero enviar imagens e vídeos nas minhas publicações, para que eu possa enriquecer meu conteúdo.
+
+![Section 4](https://github.com/user-attachments/assets/9b9406b7-0c7a-4270-b218-3f310d907452)
+![Section 6](https://github.com/user-attachments/assets/2910f31f-777e-4da0-bb8b-30e69cd9956d)
 
 #### Regra de Negócio
 - Apenas usuários autenticados podem enviar mídias.
