@@ -1,87 +1,73 @@
-### Sprint 1: Filtro de Perfis de Usuários por interesse em jogos em comum
+### Sprint 1: Filtro de Perfis de Usuários por Interesse em Jogos em Comum
 
-**Valor**:  Permitir que os usuários encontrem novos jogadores dispostos a jogarem juntos 
+**Valor:** Permitir que os usuários encontrem novos jogadores dispostos a jogar juntos, facilitando a formação de grupos com interesses semelhantes.
 
-**Requisitos**:
-1. RF1: Cadastrar usuários
-2. RF2: Autenticar usuários
-3. RF3: exibir os dados de um perfil de usuário
-4. RF5: filtrar perfis de usuários por interesses de jogos
+---
 
-**Requisitos Não funcionais**:
-1. RNF1: A senha do usuário precisa estar criptografada
-2. RNF2: Os dados da aplicação precisam estar persistidos no PostgreSQL
-3. RNF4: O usuário deve ser identificado por um JWT (JSON Web Token).
-4. RNF5: O tempo de resposta para a busca e filtragem de perfis deve ser inferior a 2 segundos
-5. RNF7: Deverão ser feitos testes unitários e de integração com a biblioteca faker js.
-6. RNF3: Todas as listas de dados precisam estar paginadas.
+## User Stories e Regras de Negócio
 
-**Desenvolvimento do Backend**
+### Cadastro e Autenticação de Usuários (RF-1)
+**Como** um novo usuário, **eu quero** me cadastrar e autenticar na plataforma, **para** poder utilizar a funcionalidade de filtragem de perfis.
 
-**Objetivo**: Implementar a lógica de filtragem de usuários por jogos de interesse em comum
+![iPhone 14   15 Pro Max - 2](https://github.com/user-attachments/assets/44e4c56d-7710-496d-a069-64c58288cf47)
 
-**Tarefas**:
+![iPhone 14   15 Pro Max - 20](https://github.com/user-attachments/assets/843ea8df-c86e-4240-8cde-29bd009d7b67)
 
-1. **Lógica de criação de usuário**
-    
-    - lógica para criação e armazenamento de novos usuários no sistema
-    - lógica para criação e armazenamento de novos jogos no sistema
-    - relacionamento entre as entidades User e Game, para que cada usuário possa associar múltiplos jogos ao seu perfil 
-    - Logica de autenticação de usuários no sistema 
+#### Regra de Negócio
+- O sistema deve permitir o cadastro de novos usuários com validação de dados
+- O sistema deve autenticar usuários usando um método seguro, como JWT.
+- Durante o cadastro o usuário irá informar os jogos que deseja integrar em seu perfil
 
-2. **Criação de Endpoints para Busca e Filtragem de Perfis**
+#### Tarefas:
 
-    - Implementar a lógica de filtragem baseada em interesses de jogos em comum.
-    - Criar endpoints RESTful para busca e filtragem de perfis de usuários.
-    - Garantir que os endpoints retornem dados paginados.
+**Backend:**
+- Implementar lógica para cadastro de usuários com validação de dados. 
+- Implementar autenticação de usuários com JWT
+- Lógica para que o usuário possa adicionar jogos ao seu perfil
 
-3. **Autenticação e Autorização**
-    
-    - Implementar autenticação de usuários utilizando JWT
-    - Garantir que apenas usuários autenticados possam acessar os endpoints de busca e filtragem
-    - Implementar a criptografia de senhas dos usuários utilizando bcrypt
-    
-4. **Testes de Backend**
-    
-    - Escrever testes unitários e de integração para os endpoints criados
-    - Utilizar a lib faker para gerar dados de teste
+**Frontend:**
+- Criar UI para o cadastro de usuários (formulário com campos necessários)
+- Criar UI para a autenticação de usuários (login).
 
-**Desenvolvimento do Frontend**
+#### Critérios de Aceitação:
+- Usuários devem ser capazes de se cadastrar e receber uma confirmação.
+- Usuários devem ser autenticados e redirecionados para a tela principal
 
-**Objetivo**: Implementar a interface de usuário para o filtro.
+---
 
-**Tarefas**:
+### Filtro de Perfis por Interesses em Jogos (RF-5)
+**Como** um usuário autenticado, **eu quero** filtrar perfis de outros usuários com interesses em jogos em comum, **para** encontrar pessoas para jogar
 
-1. **Desenvolvimento dos Componentes de UI para o Filtro**
-    
-    - Componentes UI do perfil estático do usuário
-    - Criar componentes de UI para a listagem de perfis de usuários
-    - Implementar a tela para o usuário escolher os jogos de interesse
+![iPhone 14   15 Pro Max - 21](https://github.com/user-attachments/assets/31b6ecd0-2117-4ff9-80a0-59e2415578ec)
 
-2. **Integração com os Endpoints do Backend**
-    
-    - Integrar os componentes de UI com os endpoints de busca e filtragem do backend
-    - Implementar a lógica de paginação na interface de usuario
+#### Regra de Negócio
+- O sistema deve permitir que os usuários filtrem perfis com base nos jogos de interesse
+- A busca deve retornar resultados paginados.
 
-3. **Autenticação no Frontend**
-    
-    - Implementar a lógica de autenticação no frontend utilizando JWT.
-    - Garantir que apenas usuários autenticados possam acessar a funcionalidade das telas de filtro de perfis.
+#### Tarefas:
 
-4. **Testes de Usabilidade e Ajustes**
-    
-    - Conduzir testes de usabilidade com usuários reais
-    - Coletar feedback e realizar ajustes na interface de usuário
+**Backend:**
+- Implementar a lógica de filtragem de perfis baseada em interesses de jogos. 
+- Criar endpoints RESTful para busca e filtragem de perfis de usuários. 
+**Frontend:**
+- Criar componentes de UI para a exibição de perfis filtrados. 
+- Implementar a lógica de paginação na interface de usuário. 
 
-**Testes e Revisão** 
+#### Critérios de Aceitação:
+- Os perfis devem ser filtrados corretamente com base nos interesses selecionados.
+- Os resultados devem ser exibidos de forma paginada.
 
-**Objetivo**: Garantir que o filtro de usuários funcione corretamente
+---
 
-**Tarefas**:
+### Revisão e Melhorias
+**Objetivo:** Garantir que o filtro de usuários funcione corretamente e que a experiência do usuário seja a melhor possível
 
-1. **Testes de Usabilidade com Usuários Reais**
-    
-    - Conduzir testes de usabilidade com um grupo de usuários reais.
-    - Coletar feedback e identificar possíveis melhorias
-2. **Correções e Melhorias**
-    - Implementar melhorias e/ou correções com base no feedback dos usuários.
+#### Tarefas:
+1. **Revisão de Código**
+   - Conduzir revisões de código com a equipe para assegurar a qualidade do código. (Toda a equipe)
+   - Implementar testes unitários (Backend)
+
+2. **Implementação de Melhorias**
+   - Implementar melhorias com base no feedback coletado durante os testes de usabilidade. (Desenvolvedores 1, 2 e 3)
+
+---
