@@ -112,7 +112,7 @@ Como um usuário, eu quero enviar imagens e vídeos nas minhas publicações, pa
 #### Tarefas:
 **Backend:**
 - Implementar a lógica para upload de imagens e vídeos. (Lauro)
-- Configurar S3 para armazenamento (Lauro)
+- Configurar bucket aws S3 para armazenamento (Lauro)
 - Validar  tipos de arquivo e tamanhos permitidos (Lauro)
 
 **Frontend:**
