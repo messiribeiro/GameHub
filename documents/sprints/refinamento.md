@@ -10,6 +10,9 @@
 
 **Como** um usuário, **eu quero** buscar outros usuários na plataforma, **para** facilitar a conexão e interação com pessoas com interesses semelhantes.
 
+![Section 1](https://github.com/user-attachments/assets/bcb96904-90d3-4940-baf2-629741009051)
+
+
 #### Regra de Negócio
 - A barra de busca deve permitir a pesquisa por nome de usuário
 
@@ -31,6 +34,9 @@
 ### Perfis Específicos de Jogos Adicionados (RF-21)
 
 **Como** um usuário gamedev, **eu quero** ter perfis específicos para cada jogo que adiciono, **para** organizar e promover meus projetos de forma individual.
+
+![iPhone 14   15 Pro Max - 42](https://github.com/user-attachments/assets/3ba246ee-71e1-49dd-86b0-bc6f7e1eaf67)
+
 
 #### Regra de Negócio
 - Apenas usuários premium gamedev podem adicionar perfis específicos para jogos.
@@ -55,6 +61,11 @@
 
 **Como** um usuário, **eu quero** acessar uma barra de configurações, **para** editar minha senha e excluir minha conta de forma segura e prática.
 
+![Section 19](https://github.com/user-attachments/assets/e10e0b35-d2c8-4acd-b054-e4e288552635)
+
+![Section 13](https://github.com/user-attachments/assets/c6ff8245-dc56-4212-a701-aeb7ccbd905e)
+
+
 #### Regra de Negócio
 - Os usuários devem conseguir editar sua senha mediante confirmação da senha atual.
 - A exclusão de conta deve ser definitiva e requerer confirmação do usuário.
@@ -78,6 +89,9 @@
 ### Regras de Pagamento para Jogos Extras (RF-23)
 
 **Como** um usuário premium dos planos Gamedev Basic ou Gamedev, **eu quero** pagar uma taxa adicional para adicionar mais jogos que o limite padrão do meu plano permite, **para** expandir minha visibilidade na plataforma.
+
+![iPhone 14   15 Pro Max - 50](https://github.com/user-attachments/assets/6ce8ac8d-f670-4bfe-9c06-cda4e750d75f)
+
 
 #### Regras de Negócio
 - **Plano Gamedev Basic:** Após adicionar 2 jogos, o usuário deve pagar uma taxa adicional de R$5 para cada novo jogo que queira incluir.
