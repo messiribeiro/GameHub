@@ -55,6 +55,8 @@
 ### Gestão de Assinaturas (RF-18)
 **Como** um usuário premium, **eu quero** gerenciar minha assinatura (cancelar ou renovar), **para** ter controle sobre meus pagamentos recorrentes.
 
+![image](https://github.com/user-attachments/assets/de0dbeac-af9e-4c94-a7a3-d4db713cd18b)
+
 #### Regra de Negócio
 - Usuários premium podem cancelar ou renovar suas assinaturas a qualquer momento.
 - O sistema deve alertar os usuários sobre a expiração de suas assinaturas.
@@ -76,7 +78,9 @@
 ---
 
 ### Benefícios de Usuário Premium (RF-19)
-**Como** um usuário premium, **eu quero** ter acesso a funcionalidades exclusivas, **como** um selo premium no perfil e mais visibilidade nas buscas.
+**Como** um usuário premium, **eu quero** ter acesso a funcionalidades exclusivas, **como** um selo premium no perfil e meus jogos listados no meu perfil de gamedev.
+
+![image](https://github.com/user-attachments/assets/bf38415a-0edf-4f69-9dca-aac921d92c4e)
 
 #### Regra de Negócio
 - Usuários premium devem ter um selo destacado em seus perfis.
