@@ -35,7 +35,7 @@
 
 **Como** um usuário gamedev, **eu quero** ter perfis específicos para cada jogo que adiciono, **para** organizar e promover meus projetos de forma individual.
 
-![iPhone 14   15 Pro Max - 42](https://github.com/user-attachments/assets/3ba246ee-71e1-49dd-86b0-bc6f7e1eaf67)
+![iPhone 14   15 Pro Max - 51](https://github.com/user-attachments/assets/cbfcff8f-9d72-4fcd-b442-1ef3ce3a53b3)
 
 
 #### Regra de Negócio
