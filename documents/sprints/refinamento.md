@@ -1,4 +1,4 @@
-# Refinamento: Barra de Busca, Perfis Específicos de Jogos e Configurações de Conta
+# Refinamento: Barra de Busca, Perfis Específicos de Jogos, Configurações de Conta e Acréscimo para novos jogos
 
 **Valor:** Melhorar a usabilidade da plataforma, permitindo que usuários encontrem outros facilmente e personalizem suas experiências, aumentando a interatividade e promovendo um espaço mais seguro e customizável.
 
