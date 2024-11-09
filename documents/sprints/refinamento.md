@@ -1,45 +1,69 @@
-# Refinamento: Barra de Busca, Perfis Específicos de Jogos, Configurações de Conta e Acréscimo para novos jogos
+# Refinamento: Perfis Específicos de Jogos e Funcionalidade Premium para Gamers
 
-**Valor:** Melhorar a usabilidade da plataforma, permitindo que usuários encontrem outros facilmente e personalizem suas experiências, aumentando a interatividade e promovendo um espaço mais seguro e customizável.
+**Valor:** Melhorar a usabilidade da plataforma, permitindo que usuários encontrem outros jogadores de forma personalizada e aprimorem sua experiência com funcionalidades exclusivas, promovendo uma interação mais segura e customizável.
 
 ---
 
 ## User Stories e Regras de Negócio
 
-### Barra de Busca de Usuários (RF-20)
+### Implementação de Assinatura Premium com Stripe (RF-20)
 
-**Como** um usuário, **eu quero** buscar outros usuários na plataforma, **para** facilitar a conexão e interação com pessoas com interesses semelhantes.
+**Como** um usuário, **eu quero** poder assinar o plano de "Usuário Premium" de forma segura, **para** ter acesso a funcionalidades exclusivas, como filtros personalizados e métricas avançadas de interação.
 
-![Section 1](https://github.com/user-attachments/assets/bcb96904-90d3-4940-baf2-629741009051)
-
-
-#### Regra de Negócio
-- A barra de busca deve permitir a pesquisa por nome de usuário
+#### Regras de Negócio
+- A plataforma deve permitir o pagamento de uma assinatura única para o plano "Usuário Premium" utilizando o Stripe.
+- Usuários premium terão acesso a um filtro personalizado para buscar jogadores com base em critérios como rank, tempo de jogo e notas de interações.
+- Assinantes premium também poderão visualizar métricas detalhadas de interações com outros usuários.
 
 #### Tarefas
 
 **Backend:**
-- Implementar endpoint de busca de usuários, com filtros de nome de usuário *(Lauro)*
+- Configurar a integração com a API do Stripe para gerenciar a assinatura do plano "Usuário Premium", incluindo endpoints para criação, cancelamento e verificação de status de assinatura. *(Lauro)*
+- Definir o plano de assinatura "Usuário Premium" na API do Stripe, com o valor mensal ou anual conforme definido. *(Lucas)*
+- Implementar lógica no backend para garantir que apenas usuários premium possam acessar as funcionalidades exclusivas, como o filtro personalizado. *(Lucas)*
 
 **Frontend:**
-- Criar interface para a barra de busca com opções de filtro. *(Micael)*
-- Exibir os resultados de busca em uma lista, com destaque para usuários premium e gamedevs. *(Almir)*
+- Criar uma interface de seleção para o plano "Usuário Premium", destacando as vantagens e funcionalidades exclusivas. *(Almir)*
+- Implementar a interface de pagamento com Stripe para assinatura, exibindo confirmação e status da assinatura após o pagamento. *(Micael)*
 
 #### Critérios de Aceitação
-- A busca deve exibir usuários corretamente, com opção de filtro por nome
-- Usuários premium e gamedevs devem ser destacados nos resultados.
+- O sistema deve permitir que os usuários assinem o plano "Usuário Premium" por meio do Stripe e visualizem o status da assinatura.
+- Após a confirmação do pagamento, o sistema deve atualizar o status do usuário para premium, concedendo acesso imediato ao filtro personalizado e demais funcionalidades exclusivas.
+- Usuários não premium não devem conseguir acessar funcionalidades reservadas aos assinantes premium.
 
 ---
 
-### Perfis Específicos de Jogos Adicionados (RF-21)
+### Funcionalidades Premium para Gamers (RF-24)
 
-**Como** um usuário gamedev, **eu quero** ter perfis específicos para cada jogo que adiciono, **para** organizar e promover meus projetos de forma individual.
-
-![iPhone 14   15 Pro Max - 51](https://github.com/user-attachments/assets/cbfcff8f-9d72-4fcd-b442-1ef3ce3a53b3)
-
+**Como** um usuário premium, **eu quero** utilizar filtros e métricas exclusivas de interação, **para** que minhas conexões sejam mais personalizadas e relevantes.
 
 #### Regra de Negócio
-- Apenas usuários premium gamedev podem adicionar perfis específicos para jogos.
+- Apenas usuários premium terão acesso a filtros avançados, como rank, notas de interações e métricas de tempo de jogo.
+
+#### Tarefas
+
+**Backend:**
+- Criar endpoint para filtrar usuários por rank nos jogos. *(Lucas)*
+- Implementar endpoint para registrar e exibir notas de interação entre usuários, com atualizações baseadas na experiência do usuário. *(Lauro)*
+- Adicionar funcionalidade para calcular e exibir o tempo de jogo dos usuários. *(Lauro)*
+
+**Frontend:**
+- Desenvolver interface para aplicar o filtro por rank de usuário e exibir resultados adequadamente. *(Micael)*
+- Criar interface para visualização das notas de interação entre usuários premium. *(Almir)*
+- Exibir o tempo de jogo dos usuários em perfis e em filtros específicos para premium. *(Micael)*
+
+#### Critérios de Aceitação
+- Filtros e métricas exclusivas devem ser exibidos corretamente para usuários premium.
+- As notas de interação e o tempo de jogo devem ser atualizados e exibidos em tempo real para as interações.
+
+---
+
+### Perfis Específicos de Jogos para Usuários GameDev (RF-21)
+
+**Como** um usuário com perfil gamedev, **eu quero** ter perfis específicos para cada jogo que adiciono, **para** organizar e promover meus projetos de forma individual.
+
+#### Regra de Negócio
+- Apenas usuários com o perfil gamedev premium podem adicionar perfis específicos para jogos.
 - Cada perfil de jogo deve incluir informações como título, descrição, imagem, gênero e links para download ou plataformas de venda.
 
 #### Tarefas
@@ -48,67 +72,9 @@
 - Criar endpoints para adicionar, editar e excluir perfis de jogos para gamedevs. *(Lauro)*
 
 **Frontend:**
-- Criar interface para exibição de perfis de jogos  *(Micael)*
-- Implementar a lógica para que os perfis dos jogos tenham as postagens dos usuarios que marcarem o perfil *(Micael)*
+- Criar interface para exibição de perfis de jogos. *(Micael)*
+- Implementar a lógica para que os perfis dos jogos exibam postagens dos usuários que marcaram o perfil do jogo. *(Micael)*
 
 #### Critérios de Aceitação
-- Gamedevs devem conseguir adicionar, editar e excluir perfis de jogos.
+- Usuários gamedevs devem conseguir adicionar, editar e excluir perfis de jogos.
 - Perfis de jogos devem ser exibidos corretamente no perfil do usuário gamedev, incluindo todas as informações especificadas.
-
----
-
-### Barra de Configurações de Conta (RF-22)
-
-**Como** um usuário, **eu quero** acessar uma barra de configurações, **para** editar minha senha e excluir minha conta de forma segura e prática.
-
-![Section 19](https://github.com/user-attachments/assets/e10e0b35-d2c8-4acd-b054-e4e288552635)
-
-![Section 13](https://github.com/user-attachments/assets/c6ff8245-dc56-4212-a701-aeb7ccbd905e)
-
-
-#### Regra de Negócio
-- Os usuários devem conseguir editar sua senha mediante confirmação da senha atual.
-- A exclusão de conta deve ser definitiva e requerer confirmação do usuário.
-
-#### Tarefas
-
-**Backend:**
-- Implementar endpoints para atualização de senha e exclusão de conta. *(Lucas)*
-- Adicionar autenticação para verificar a senha atual antes de permitir a alteração. *(Lauro)*
-
-**Frontend:**
-- Criar interface de configurações com campos para alteração de senha e opção para excluir conta. *(Almir)*
-- Implementar confirmação para exclusão de conta, com aviso de que a ação é irreversível. *(Almir)*
-
-#### Critérios de Aceitação
-- A senha deve ser editável após confirmação da senha atual.
-- A exclusão de conta deve ser definitiva, com confirmação e aviso ao usuário.
-
----
-
-### Regras de Pagamento para Jogos Extras (RF-23)
-
-**Como** um usuário premium dos planos Gamedev Basic ou Gamedev, **eu quero** pagar uma taxa adicional para adicionar mais jogos que o limite padrão do meu plano permite, **para** expandir minha visibilidade na plataforma.
-
-![iPhone 14   15 Pro Max - 50](https://github.com/user-attachments/assets/6ce8ac8d-f670-4bfe-9c06-cda4e750d75f)
-
-
-#### Regras de Negócio
-- **Plano Gamedev Basic:** Após adicionar 2 jogos, o usuário deve pagar uma taxa adicional de R$5 para cada novo jogo que queira incluir.
-- **Plano Gamedev:** Após adicionar 10 jogos, o usuário deve pagar uma taxa adicional de R$5 para cada jogo extra.
-- **Após o Pagamento:** O jogo extra deve ser liberado imediatamente para inclusão no perfil do usuário.
-
-#### Tarefas
-
-**Backend:**
-- Implementar lógica de verificação do limite de jogos com base no plano antes de permitir a adição de um novo jogo. *(Lucas)*
-- Criar endpoint para processar o pagamento de jogos adicionais e liberar espaço para o novo jogo após a confirmação. *(Lauro)*
-
-**Frontend:**
-- Exibir uma notificação informando ao usuário que ele atingiu o limite de jogos e oferecer a opção de pagamento adicional para incluir outro jogo. *(Almir)*
-- Implementar UI para confirmar o pagamento do jogo extra com detalhes de custo, exibindo o status da liberação após o pagamento. *(Micael)*
-
-#### Critérios de Aceitação
-- O sistema deve verificar o limite de jogos e oferecer a opção de pagamento adicional de acordo com o plano do usuário.
-- Após o pagamento, o usuário deve poder adicionar o novo jogo imediatamente.
-- Usuários devem ser informados sobre a opção de upgrade para o plano Gamedev quando atingirem o limite do plano Gamedev Basic.
