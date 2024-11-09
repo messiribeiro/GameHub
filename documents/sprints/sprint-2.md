@@ -1,78 +1,92 @@
 ### Sprint 2: Perfil de Usuário e Chat Privado em Tempo Real
-**Valor**: Permitir que os usuários se comuniquem com outros usuários encontrados na feature de filtro de perfis e visualizem informações detalhadas dos perfis.
 
-**Requisitos**:
-1. RF3: Exibir os dados de um perfil de usuário
-2. RF7: Visualizar detalhes do perfil de um usuário
-3. RF8: Adicionar outros usuários como amigos
-4. RF9: Enviar e receber mensagens privadas
-5. RF10: Criar e participar de grupos de interesse
+**Valor:** Permitir que os usuários se comuniquem com outros usuários encontrados na funcionalidade de filtro de perfis e visualizem informações detalhadas dos perfis.
 
-**Requisitos Não-Funcionais**:
-1. RNF1: A senha do usuário precisa estar criptografada
-2. RNF2: Os dados da aplicação precisam estar persistidos no PostgreSQL
-3. RNF4: O usuário deve ser identificado por um JWT (JSON Web Token).
-4. RNF5: O tempo de resposta para a busca e filtragem de perfis deve ser inferior a 2 segundos
-5. RNF6: A aplicação deve ter alta disponibilidade
-6. RNF7: Deverão ser feitos testes unitários e de integração com a biblioteca faker js.
+---
 
-### Desenvolvimento do Backend
+## User Stories e Regras de Negócio
 
-**Objetivo**: Implementar a funcionalidade de visualização de perfil e chat privado em tempo real.
+### Visualização de Perfil de Usuário (RF-3 e RF-7)
+**Como** um usuário, **eu quero** visualizar detalhes do perfil de outros usuários, **para** entender melhor suas informações e interesses.
 
-**Tarefas**:
+![iPhone 14   15 Pro Max - 3](https://github.com/user-attachments/assets/3dcbf68e-814f-480c-a2a0-049ed473974c)
 
-1. **Perfil de Usuário** (Lauro)
-    - Implementar a lógica para exibir os dados detalhados do perfil de um usuário.
-    - Criar endpoints RESTful para obter detalhes do perfil e permitir que usuários visualizem esses dados.
-    - Garantir que a visualização do perfil esteja disponível apenas para usuários autenticados.
 
-2. **Chat Privado em Tempo Real** (Lauro)
-    - Implementar a lógica para envio e recebimento de mensagens privadas em tempo real.
-    - Utilizar WebSocket ou outra tecnologia de comunicação em tempo real para permitir que mensagens sejam enviadas e recebidas instantaneamente.
-    - Criar endpoints RESTful para enviar e buscar mensagens privadas.
+#### Regra de Negócio
+- O sistema deve permitir que usuários autenticados visualizem os dados detalhados dos perfis.
+- Os dados do perfil devem ser acessíveis apenas para usuários autenticados.
 
-3. **Gerenciamento de Amizades** (Lucas)
-    - Implementar a lógica para adicionar e gerenciar amigos entre os usuários.
-    - Criar endpoints RESTful para enviar solicitações de amizade e aceitar ou recusar solicitações recebidas.
+#### Tarefas:
 
-4. **Testes de Backend** (Lucas)
-    - Escrever testes unitários e de integração para os endpoints criados, incluindo testes para a funcionalidade de chat em tempo real.
-    - Utilizar a lib faker para gerar dados de teste e garantir que os testes cobrem todos os casos possíveis.
+**Backend:**
+- Implementar a lógica para exibir os dados detalhados do perfil de um usuário. (Lauro)
+- Criar endpoints RESTful para obter detalhes do perfil. (Lauro)
 
-### Desenvolvimento do Frontend
+**Frontend:**
+- Criar componentes de UI para exibir os detalhes do perfil de usuário. (Micael)
+- Garantir que a visualização do perfil esteja disponível apenas para usuários autenticados. (Micael)
 
-**Objetivo**: Implementar a interface de usuário para visualização de perfil e chat privado.
+#### Critérios de Aceitação:
+- Usuários devem conseguir visualizar os dados detalhados do perfil.
+- O acesso aos perfis deve ser restrito a usuários autenticados.
 
-**Tarefas**:
- 
-1. **Desenvolvimento dos Componentes de UI para Perfil e Chat** (Micael) 
-    - Criar componentes de UI para exibir os detalhes do perfil de usuário.
-    - Implementar a interface para o chat privado, incluindo caixas de mensagem, histórico de chat e notificações.
-    - Criar a tela para gerenciar amizades, incluindo envio e recebimento de solicitações.
+---
 
-2. **Integração com os Endpoints do Backend** (Almir)
-    - Integrar os componentes de UI com os endpoints de perfil e chat do backend.
-    - Garantir que as funcionalidades de perfil e chat estejam devidamente conectadas com a lógica de backend e a comunicação em tempo real.
+### Gerenciamento de Amizades (RF-8)
+**Como** um usuário, **eu quero** adicionar outros usuários como amigos, **para** interagir mais facilmente com eles.
 
-3. **Autenticação no Frontend** (Micael)
-    - Garantir que apenas usuários autenticados possam acessar as funcionalidades de perfil e chat.
-    - Implementar a lógica de autenticação no frontend utilizando JWT para proteger o acesso às funcionalidades.
+![iPhone 14   15 Pro Max - 22](https://github.com/user-attachments/assets/a1a10b94-eaf2-40bc-b7b8-e4b950ca709a)
 
-4. **Testes de Usabilidade e Ajustes** (Almir)
-    - Conduzir testes de usabilidade com usuários reais para a funcionalidade de perfil e chat.
-    - Coletar feedback e realizar ajustes na interface de usuário para melhorar a experiência.
 
-### Testes e Revisão (Todos)
+#### Regra de Negócio
+- O sistema deve permitir que os usuários enviem e recebam solicitações de amizade.
 
-**Objetivo**: Garantir que a funcionalidade de perfil e chat privado em tempo real funcionem corretamente.
+#### Tarefas:
 
-**Tarefas**:
+**Backend:**
+- Implementar a lógica para adicionar e gerenciar amigos entre os usuários. (Lucas)
+- Criar endpoints RESTful para enviar, aceitar e recusar solicitações de amizade. (Lucas)
 
-1. **Testes de Usabilidade com Usuários Reais**
-    - Conduzir testes de usabilidade com um grupo de usuários reais para as funcionalidades de perfil e chat.
-    - Coletar feedback sobre a experiência do usuário e identificar possíveis melhorias.
+**Frontend:**
+- Criar a tela para gerenciar amizades, incluindo envio e recebimento de solicitações. (Micael)
 
-2. **Correções e Melhorias**
-    - Implementar melhorias e/ou correções com base no feedback dos usuários.
-    - Atualizar a documentação e realizar quaisquer ajustes necessários antes do próximo ciclo de desenvolvimento.
+#### Critérios de Aceitação:
+- Usuários devem conseguir enviar e gerenciar solicitações de amizade.
+
+---
+
+### Chat Privado em Tempo Real (RF-9)
+**Como** um usuário, **eu quero** enviar e receber mensagens privadas, **para** me comunicar diretamente com meus amigos.
+
+![iPhone 14   15 Pro Max - 9](https://github.com/user-attachments/assets/068c277a-a21e-40ee-8f88-1936f4ba266d)
+
+
+#### Regra de Negócio
+- O sistema deve permitir o envio e recebimento de mensagens privadas em tempo real.
+
+#### Tarefas:
+
+**Backend:**
+- Implementar a lógica para envio e recebimento de mensagens privadas em tempo real. (Lauro)
+- Criar endpoints RESTful para enviar e buscar mensagens privadas. (Lauro)
+
+**Frontend:**
+- Implementar a interface para o chat privado, incluindo caixas de mensagem e histórico de chat. (Micael)
+
+#### Critérios de Aceitação:
+- Mensagens devem ser enviadas e recebidas instantaneamente.
+
+---
+
+### Revisão e Melhorias
+**Objetivo:** Garantir que as funcionalidades de perfil e chat privado em tempo real funcionem corretamente e que a experiência do usuário seja a melhor possível.
+
+#### Tarefas:
+1. **Revisão de Código**
+   - Conduzir revisões de código com a equipe para assegurar a qualidade do código. (Toda a equipe)
+   - Testes unitários (Backend)
+
+2. **Implementação de Melhorias**
+   - Implementar melhorias com base no feedback coletado durante os testes de usabilidade. (Desenvolvedores 1, 2 e 3)
+
+---

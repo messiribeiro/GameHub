@@ -4,31 +4,10 @@
 
 ## User Stories e Regras de Negócio
 
-### Adição de Jogos por Usuários Premium (RF-16)
-**Como** um usuário premium (gamedev), **eu quero** adicionar meus jogos à rede social, **para** promover meu trabalho e facilitar a interação com os jogadores.
-
-#### Regra de Negócio
-- Apenas usuários premium podem adicionar jogos à plataforma.
-- Os jogos devem incluir informações como título, descrição, gênero, imagem e links para plataformas de distribuição.
-- Uma vez adicionados, os jogos ficarão visíveis para todos os usuários da rede social.
-
-#### Tarefas:
-
-**Backend:**
-- Criar endpoints RESTful para permitir que usuários premium adicionem, editem e excluam jogos. (Lauro)
-
-**Frontend:**
-- Criar UI para que usuários premium possam adicionar jogos (campos para título, descrição, imagem, etc.). (Micael)
-- Implementar lógica para exibir os jogos adicionados no perfil do usuário. (Micael)
-
-#### Critérios de Aceitação:
-- Usuários premium devem conseguir adicionar, editar e excluir jogos de seus perfis.
-- Os jogos devem ser exibidos corretamente nos perfis dos desenvolvedores.
-
----
-
-### Sistema de Pagamento para Tornar-se Premium (RF-17)
+### Sistema de Pagamento para Tornar-se Premium (RF-16)
 **Como** um usuário, **eu quero** pagar para me tornar premium, **para** ter a capacidade de adicionar meus jogos e acessar funcionalidades exclusivas.
+
+![Section 11](https://github.com/user-attachments/assets/25c267b2-c04f-4931-8255-e6af34c3c59b)
 
 #### Regra de Negócio
 - O sistema deve suportar métodos de pagamento como cartão de crédito, débito e PayPal.
@@ -49,6 +28,31 @@
 - O sistema deve aceitar pagamentos via cartão de crédito, débito e PayPal.
 - O status do usuário deve ser atualizado para premium imediatamente após o pagamento ser processado.
 - O usuário deve receber uma confirmação de sucesso ou erro após o pagamento.
+
+---
+
+### Adição de Jogos por Usuários GameDev (RF-17)
+**Como** um usuário premium (gamedev), **eu quero** adicionar meus jogos à rede social, **para** promover meu trabalho e facilitar a interação com os jogadores.
+
+![iPhone 14   15 Pro Max - 43](https://github.com/user-attachments/assets/c0260340-78d2-4f55-8697-b4197f1aa1bf)
+
+#### Regra de Negócio
+- Apenas usuários premium podem adicionar jogos à plataforma.
+- Os jogos devem incluir informações como título, descrição, gênero, imagem e links para plataformas de distribuição.
+- Uma vez adicionados, os jogos ficarão visíveis para todos os usuários da rede social.
+
+#### Tarefas:
+
+**Backend:**
+- Criar endpoints RESTful para permitir que usuários premium adicionem, editem e excluam jogos. (Lauro)
+
+**Frontend:**
+- Criar UI para que usuários premium possam adicionar jogos (campos para título, descrição, imagem, etc.). (Micael)
+- Implementar lógica para exibir os jogos adicionados no perfil do usuário. (Micael)
+
+#### Critérios de Aceitação:
+- Usuários premium devem conseguir adicionar, editar e excluir jogos de seus perfis.
+- Os jogos devem ser exibidos corretamente nos perfis dos desenvolvedores.
 
 ---
 

@@ -9,7 +9,8 @@
 **Diferenciais e Soluções**:
 - Filtros de usuários mais atrativos, com filtro por rank no jogo, tempo de jogo, notas de interações com outros usuários (acessíveis no plano premium)
 - Possibilidade de login com conta do Discord e Steam, para atrair outros públicos
-- Plano de assinatura para game devs com foco em desenvolvedores para plataformas mobile
+- Plano de assinatura para game devs com foco em desenvolvedores para plataformas mobile, para que possam divulgar seus projetos e construir uma relação mais proxima com a comunidade.
+
 
 **Parcerias-Chave**
 - Desenvolvedores de jogos interessados a montarem um comunidade no nosso app
@@ -24,3 +25,4 @@
 
 **Metas**: 
 - alcançar 500 downloads nos primeiros 3 mêses e 10k em um período de 1 anos
+
