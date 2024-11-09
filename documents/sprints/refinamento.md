@@ -33,7 +33,7 @@
 
 ---
 
-### Funcionalidades Premium para Gamers (RF-24)
+### Funcionalidades Premium para Gamers (RF-21)
 
 **Como** um usuário premium, **eu quero** utilizar filtros e métricas exclusivas de interação, **para** que minhas conexões sejam mais personalizadas e relevantes.
 
