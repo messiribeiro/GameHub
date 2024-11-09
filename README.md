@@ -6,7 +6,7 @@ Bem-vindo ao projeto de **Rede Social para Gamers**! Este projeto visa criar uma
 
 ## Descrição do Projeto
 
-Este projeto visa criar um aplicativo móvel para gamers de diversas plataformas, com foco em mobile, encontrarem parceiros de jogo com base em interesses e estilos, além de formar uma comunidade para interação, grupos e compartilhamento de experiências.
+Este projeto visa criar um aplicativo móvel para gamers de diversas plataformas, encontrarem parceiros de jogo com base em interesses e estilos, além de formar uma comunidade para interação, grupos e compartilhamento de experiências.
 
 Também teremos uma abordagem voltada para desenvolvedores de jogos, permitindo que eles criem perfis para seus jogos, interajam com os jogadores e recebam feedback.
 
