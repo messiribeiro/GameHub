@@ -6,9 +6,11 @@ Bem-vindo ao projeto de **Rede Social para Gamers**! Este projeto visa criar uma
 
 ## Descrição do Projeto
 
-O objetivo principal deste projeto é desenvolver um aplicativo móvel que permita aos gamers encontrar parceiros para jogar com base em interesses e estilos de jogo. Além disso, o aplicativo criará uma comunidade onde os usuários podem interagir, formar grupos e compartilhar suas experiências de jogo.
+Este projeto visa criar um aplicativo móvel para gamers de diversas plataformas, com foco em mobile, encontrarem parceiros de jogo com base em interesses e estilos, além de formar uma comunidade para interação, grupos e compartilhamento de experiências.
 
-Embora existam plataformas como Discord e entre outros que oferecem funcionalidades semelhantes, nosso aplicativo se diferencia ao focar exclusivamente nas necessidades dos gamers. Nossa pesquisa revelou que não há uma rede social dedicada que combine todas nossas propostas de funcionalidades personalizáveis em um único lugar. Nosso objetivo é preencher essa lacuna, proporcionando uma plataforma única e especializada para a comunidade gamer.
+Também teremos uma abordagem voltada para desenvolvedores de jogos, permitindo que eles criem perfis para seus jogos, interajam com os jogadores e recebam feedback.
+
+Embora existam plataformas como Discord, nosso aplicativo se diferencia ao oferecer uma solução focada nas necessidades dos gamers e gamedevs, com funcionalidades personalizáveis em um único lugar, preenchendo uma lacuna no mercado.
 
 ## Estrutura do Projeto
 
@@ -31,13 +33,15 @@ Repositórios:
 - **Recomendações Personalizadas**: Encontrar parceiros de jogo com base no perfil e preferências dos usuários.
 - **Comunidade Interativa**: Fóruns, chats e grupos para interação entre gamers.
 - **Suporte ao Usuário**: Sistema para resolver dúvidas e problemas dos usuários.
+- **Plano de assinatura**: Planos acessíveis a game devs que queiram divulgar seus jogos na plataforma.
 
 ## Tecnologias Utilizadas
 
 - **React Native**: Para o desenvolvimento dos componentes UI do aplicativo móvel.
 - **Git**: Para controle de versão e colaboração no projeto.
 - **GitHub**: Para hospedagem do repositório e gerenciamento de código-fonte.
-- **Nestjs**: Para o backend 
+- **Nestjs**: Famework node.js para o backend 
+- **Cloud Run**: Para deploy do backend
 
 ## Protótipo
 
@@ -52,5 +56,6 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 Se você tiver alguma dúvida ou precisar de ajuda, sinta-se à vontade para entrar em contato:
 **Integrantes**:
 - **Email**: micael.ribeiro@mail.uft.edu.br
+- **Email**: lauro.oliveira@mail.uft.edu.br
 - **GitHub**: [messiribeiro](https://github.com/messiribeiro)
 - **GitHub**: [lauroolim](https://github.com/lauroolim)
