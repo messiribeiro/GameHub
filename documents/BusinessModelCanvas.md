@@ -3,12 +3,13 @@
 ## Proposta de Valor
 
 - **Principal**: Facilitar a conexão entre gamers que buscam parceiros para jogar, oferecendo recomendações personalizadas com base em interesses e estilos de jogo.
-- **Secundária**: Criar uma comunidade onde gamers possam compartilhar experiências, dicas e formar grupos.
+- **Secundária**: Possibilitar desenvolvedores de jogos (principalmente desenvolvedores para plataformas mobile) criem comunidades e se aproximem dos usuários de seus jogos.
 
 ## Segmentos de Clientes
 
-- **Primários**: Gamers que jogam em plataformas como PC, consoles (PS5, Xbox, etc.) e dispositivos móveis.
-- **Secundários**: Streamers, criadores de conteúdo e pequenas comunidades de jogos.
+- **Primários**: Gamers que jogam em plataformas como dispositivos móveis ou PC, consoles (PS5, Xbox, etc.).
+- **Secundários**: Desenvolvedores de jogos mobile, ou para outras plataformas.
+- **Terciários**: Streamers, criadores de conteúdo e pequenas comunidades de jogos.
 
 ## Canais
 
