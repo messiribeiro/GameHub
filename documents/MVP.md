@@ -6,6 +6,7 @@ O produto mínimo viável para o nosso projeto incluiria:
 - Mecanismo para os usuários seguirem outros usuários ou adicionar amigos.
 - Filtros Especializados por comunidade de jogo que o usuário está inserido
 - Filtro por rank do usuário no jogo, Notas de interações com outros usuários,Tempo de jogo dos usuários.
+- Plano de assinatura para game devs (com foco em desenvolvedores de plataformas mobile)
 
 Esse MVP permitirá que os usuários se conectem, compartilhem conteúdos e interajam uns com os outros, oferecendo uma experiência mínima, mas funcional, de uma rede social. As funcionalidades podem ser expandidas com base no feedback e nas necessidades observadas durante o uso do MVP.
 
